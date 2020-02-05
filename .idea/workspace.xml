@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef99db40-849b-4c99-a785-bf3c6acfef9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TeleBotWavSave.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/401497732.ogg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/401497732.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WavBot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WavBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/WavBot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,25 +73,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1580921607557">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1580929319182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580921607557" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1580921607557">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580929319182" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1580929319182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580921607557" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1580921607557">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580929319182" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1580929319181">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580921607557" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1580921607557">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580929319181" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1580929319182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580921607557" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580929319182" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1580904499658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580904499658" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1580926674418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580926674418" />
   </component>
 </project>
