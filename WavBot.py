@@ -8,7 +8,7 @@ import cv2
 Converts all audio messages to wav format with a sampling frequency of 16kHz. Files are placed in a folder: Voice
 Detects the presence of a face in the photos being sent, saves only where it is"""
 
-TELEGRAM_API_TOKEN = '1008610085:AAEfDVp8c_xR2-EZ4f5mELCejbMXFS5i5Tc'
+TELEGRAM_API_TOKEN = ''
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
 
 
