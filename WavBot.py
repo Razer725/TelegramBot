@@ -45,12 +45,12 @@ else:
     conn.commit()
     conn.close()
 
-conn = sqlite3.connect('TeleBotWavSave.db')
-with conn:
-    cur = conn.cursor()
-    cur.execute("SELECT * FROM BOT_SAVED_FILES")
-    rows = cur.fetchall()
-    print(rows, 'database')
+# conn = sqlite3.connect('TeleBotWavSave.db')
+# with conn:
+#     cur = conn.cursor()
+#     cur.execute("SELECT * FROM BOT_SAVED_FILES")
+#     rows = cur.fetchall()
+#     print(rows, 'database')
 
 
 @bot.message_handler(commands=['start'])
