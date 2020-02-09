@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef99db40-849b-4c99-a785-bf3c6acfef9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WavBot.py" beforeDir="false" afterPath="$PROJECT_DIR$/WavBot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
