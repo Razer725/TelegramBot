@@ -40,17 +40,20 @@ else:
     conn = sqlite3.connect('TeleBotWavSave.db')
     cursor = conn.cursor()
     cursor.execute("""CREATE TABLE BOT_SAVED_FILES
-                    (FILE_ID, USER_ID, FILE_TYPE, PATH_TO_FILE)
+                    (FILE_ID TEXT PRIMARY KEY,
+                     USER_ID INTEGER,
+                     FILE_TYPE TEXT,
+                      PATH_TO_FILE TEXT)
                     """)
     conn.commit()
     conn.close()
 
-# conn = sqlite3.connect('TeleBotWavSave.db')
-# with conn:
-#     cur = conn.cursor()
-#     cur.execute("SELECT * FROM BOT_SAVED_FILES")
-#     rows = cur.fetchall()
-#     print(rows, 'database')
+conn = sqlite3.connect('TeleBotWavSave.db')
+with conn:
+    cur = conn.cursor()
+    cur.execute("SELECT * FROM BOT_SAVED_FILES")
+    rows = cur.fetchall()
+    print(rows, 'database')
 
 
 @bot.message_handler(commands=['start'])
