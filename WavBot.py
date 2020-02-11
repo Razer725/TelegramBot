@@ -17,7 +17,7 @@ def convert_to_wav(path, file_directory, fileid, user_id):
     File decoded from .ogg to .wav with sample rate 16 kHz
     Output file name format: audio_message_fileid
     """
-    conn = sqlite3.connect('TeleBotWavSave.db')  # connect to db
+    conn = sqlite3.connect('TeleBotWavSave.db')
     cursor = conn.cursor()
 
     # Request to the command line for access to ffmpeg
@@ -48,12 +48,12 @@ else:
     conn.commit()
     conn.close()
 
-conn = sqlite3.connect('TeleBotWavSave.db')
-with conn:
-    cur = conn.cursor()
-    cur.execute("SELECT * FROM BOT_SAVED_FILES")
-    rows = cur.fetchall()
-    print(rows, 'database')
+# conn = sqlite3.connect('TeleBotWavSave.db')
+# with conn:
+#     cur = conn.cursor()
+#     cur.execute("SELECT * FROM BOT_SAVED_FILES")
+#     rows = cur.fetchall()
+#     print(rows, 'database')
 
 
 @bot.message_handler(commands=['start'])
@@ -66,7 +66,7 @@ Detects the presence of a face in the photos being sent, saves only where it is"
 @bot.message_handler(content_types=['voice'])
 def voice_processing(message):
     if message.chat.type == 'group':
-        conn = sqlite3.connect('TeleBotWavSave.db')  # connect to db
+        conn = sqlite3.connect('TeleBotWavSave.db')
         cursor = conn.cursor()
 
         file_id = message.voice.file_id
